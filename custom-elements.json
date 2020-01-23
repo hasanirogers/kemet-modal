@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "tags": [
+    {
+      "name": "kemet-modal",
+      "description": "A modal that has many built in effects and flexible styles.",
+      "properties": [
+        {
+          "name": "opened",
+          "type": "Boolean",
+          "description": "Determines whether or not the modal is opened.",
+          "default": false
+        },
+        {
+          "name": "effect",
+          "type": "string",
+          "description": "The opening and closing style of the modal. Possible effects include: (fadein-scaleup | slide-right | slide-bottom | newspaper | fall | side-fall | flip-horizontal | flip-vertical | sign-3d | super-scaled | slit | rotate-bottom | rotate-left)"
+        },
+        {
+          "name": "closeOnClick",
+          "type": "Boolean",
+          "description": "Allows the user to control if clicking the overlay closes the modal."
+        }
+      ],
+      "events": [
+        {
+          "name": "kemet-modal-open",
+          "description": "Fires when a modal opens."
+        },
+        {
+          "name": "kemet-modal-close",
+          "description": "Fires when a modal closes."
+        }
+      ],
+      "slots": [],
+      "cssProperties": [
+        {
+          "name": "--kemet-modal-min-width",
+          "description": "Minimum width of the modal contents. Default: 0."
+        },
+        {
+          "name": "--kemet-modal-max-width",
+          "description": "Maxiumum with of the modal contents. Default: none."
+        },
+        {
+          "name": "--kemet-modal-overlay-bgcolor",
+          "description": "The color of the modal's overlay. Default: rgba(0,0,0,0.2)."
+        },
+        {
+          "name": "--kemet-modal-transition-speed",
+          "description": "Speed for revealing the modal. Default: 0.3s."
+        }
+      ]
+    }
+  ]
+}
