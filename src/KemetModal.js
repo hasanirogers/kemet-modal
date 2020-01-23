@@ -17,6 +17,7 @@ export class KemetModal extends LitElement {
       },
       effect: {
         type: String,
+        reflect: true
       },
       closeOnClick: {
         type: Boolean,
