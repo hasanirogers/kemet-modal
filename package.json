@@ -1,8 +1,8 @@
 {
   "name": "@kemet/kemet-modal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A modal that has many built in effects and flexible styles.",
-  "author": "kemet-modal",
+  "author": "Hasani Rogers <hasani.rogers@gmail.com",
   "license": "MIT",
   "main": "index.js",
   "module": "index.js",
@@ -68,5 +68,5 @@
   "bugs": {
     "url": "https://github.com/hasanirogers/kemet-modal/issues"
   },
-  "homepage": "https://github.com/hasanirogers/kemet-modal#readme"
+  "homepage": "http://kemet.online/modal"
 }
